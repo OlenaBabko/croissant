@@ -1,0 +1,50 @@
+body {
+    background: rgb(190, 190, 253) !important;
+}
+h1 {
+    text-align: center;
+    padding-top: 40px;
+}
+img {
+    display: block;
+    margin: 30px auto;
+}
+h2 {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.ingredients {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+.colomn {
+    margin: 10px;
+    padding: 20px;
+    /* flex: 1; */
+    font-size: 16px;
+    line-height: 14px;
+}
+
+
+.links {
+    text-align: center;
+    margin: 100px auto 20px auto;
+}
+
+h6 {
+    padding-top: 10px;
+}
+.contact {
+    text-align: center;
+    font-size: 26px;
+}
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+a:visited {
+    color: green;
+}
