@@ -6,8 +6,10 @@ h1 {
     padding-top: 40px;
 }
 img {
+    max-width: 100%;
     display: block;
     margin: 30px auto;
+    border-radius: 10px;
 }
 h2 {
     text-align: center;
@@ -23,7 +25,6 @@ h2 {
 .colomn {
     margin: 10px;
     padding: 20px;
-    /* flex: 1; */
     font-size: 16px;
     line-height: 14px;
 }
@@ -33,7 +34,9 @@ h2 {
     text-align: center;
     margin: 100px auto 20px auto;
 }
-
+.links a {
+    margin: 10px;
+}
 h6 {
     padding-top: 10px;
 }
